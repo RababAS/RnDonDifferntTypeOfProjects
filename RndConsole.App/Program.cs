@@ -9,7 +9,9 @@ namespace RndConsole.App
        private static ShopDbContext context = new ShopDbContext();
         static void Main(string[] args)
         {
-            context.Database.EnsureCreated();
+            //context.Database.EnsureCreated();
+
+
             Console.WriteLine("Hello World!");
         }
     }
