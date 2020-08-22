@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Web.Api.Data\Web.Api.Data.csproj" />
+    <ProjectReference Include="..\Web.Api.Domain\Web.Api.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
